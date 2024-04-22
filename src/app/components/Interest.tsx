@@ -16,7 +16,7 @@ const InterestModal : React.FC<InterestProp> = ({title,stars,color,language,date
             <div className="flex justify-between ">
                 <div className="flex items-center  gap-2">
                 <LaptopMinimal />
-                <h1 className="text-sky-600 hover:text-blue-800 text-lg font-medium">{title.slice(0,27)}...</h1>
+                <h1 className="text-sky-600 hover:text-blue-800 text-lg font-medium">{title.slice(0, 20).replace(/'/g, "&apos;")}</h1>
                 </div>
                 
                 <div className="flex gap-2 px-2 py-1  items-center rounded-md border-2 border-slate-600">
