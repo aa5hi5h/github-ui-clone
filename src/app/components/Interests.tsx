@@ -12,7 +12,7 @@ const Interests  = () => {
     ];
     return (
         <div className="mt-4 max-w-lg mx-auto px-4 ">
-            <h1 className="text-xl mb-2 font-normal">Here's what you intersets for</h1>
+            <h1 className="text-xl mb-2 font-normal">Here what you intersets for</h1>
             {Interest.map((interest) => (
                 <InterestModal key={interest.gitTitle}
                 title={interest.gitTitle} stars={interest.stars} color={interest.color} language={interest.language} date={interest.date} />
