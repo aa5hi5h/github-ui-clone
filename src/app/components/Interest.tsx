@@ -12,7 +12,7 @@ interface InterestProp{
 const InterestModal : React.FC<InterestProp> = ({title,stars,color,language,date}) => {
     return (
         <div className="flex flex-col mb-8 border-2 shadow-sm  border-zinc-800 px-4  py-2 rounded-lg gap-2 ">
-            <h1 className="font-mono">Based on Your Interest's</h1>
+            <h1 className="font-mono">Based on Your Interest</h1>
             <div className="flex justify-between ">
                 <div className="flex items-center  gap-2">
                 <LaptopMinimal />
